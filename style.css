@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+html,body{
+    margin:0;
+    padding:0;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    height:100%;
+
+}
+.container{ background:linear-gradient(135deg,#8a2be2, #4169e1);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+.content{
+    background-color: #aaa1c5;
+    border-radius: 15px;
+    padding: 50px;
+    max-width: 50%;
+}
+.logo{
+    height:40%;
+    max-height: 200px;
+    border-radius: 20px;
+}
+input{
+    border:none;
+    padding:8px;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    display: block;
+    margin:20px auto 0 auto;
+    border-radius: 8px;
+    padding:8px 12px;
+    background-color: #8a2be2;
+    color:#fff;
+    border: none;
+    width:30%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+button:hover{
+    background-color: #4169e1;
+}
